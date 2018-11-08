@@ -1,28 +1,101 @@
 <html>
 <head>
-
-    <title> Welcome to Programming</title>
-<style>
-
-body{
-    background:magenta
-}
-
-</style>
+<title>Student Registration Form</title>
 
 </head>
-<body style="Background:rgb(241, 158, 50)">
-    <h1 style = "Color:rgba(0, 255, 0, 0.438)">FULLSTACK</h1>
-    <h2>FULLSTACK</h2>
-    <h3>FULLSTACK</h3>
-    <h4>FULLSTACK</h4>
-    <h5>FULLSTACK</h5>
-    <h6>FULLSTACK</h6>
-    <p style="Background:Yellow;color:White">This is my first paragraph for this program</p>
-    <a href="login.html">click here to login</a>
-    <img src="home.jpg" width ="100px" height="59px"/>
-  
+ 
+<body>
+<h3>STUDENT REGISTRATION FORM</h3>
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>Name</td>
+<td><input type="text" name="Name"/>
+</td>
+</tr>
+<tr>
+        <td>ADDRESS <br /><br /><br /></td>
+        <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+                <td>GENDER</td>
+                <td>
+                Male <input type="radio" name="Gender" value="Male" />
+                Female <input type="radio" name="Gender" value="Female" />
+                </td>
+                </tr>
+                
+                <tr>
+                        <td>Age</td>
+                         <td><input type="text" age="Age"/>
+                        </td>
+                        </tr>        
+<!----- Date Of Birth -------------------------------------------------------->
+<tr>
+<td>DATE OF BIRTH</td>
+ <td><input type="text" dob="D.O.B"/>
+</td>
+</tr>
+
+<tr>
+    
+
+            <td>District</td>
+            <td><select>
+            <option value="Alapuzha"> Alappuzha</option>
+            <option value="Kannur">Kannur</option>
+            <option value="Kasargod">kasargod</option>
+            <option value="Palakkad">Palakkad</option>
+            <option value="Pathanamthitta">Pathanamthitta</option>
+            <option value="Idukki">Idukki</option>
+            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="Malappuram">Malappuram</option>
+            <option value="Kozhikode">Kozhikode</option>
+            <option value="Kollam">Kollam</option>
+            <option value="Kottayam">Kottayam</option>
+            <option value="Wayanad">Wayanad</option>
+            </td>
+            </select>
+    
+</tr>
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+ 
+<tr class ="Mytr">
+        <td>Username</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr class="Mytr">
+        <td>Password</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td>Confirm password</td>
+            <td><input typ="password"></td>
+    </tr>
+ 
+ <!----- Register and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="register" value="Register">
+<input type="reset" value="Reset">
+</td>
+</tr>
+<tr>
+    <a href="login.html">Already registered? Click here</a>
+</tr>
+</table>
+ 
+</form>
+ 
 </body>
-
-
 </html>
